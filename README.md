@@ -14,9 +14,18 @@ So in this model. we will simulate the real-world airline booking scenario based
 
 
 ## Simulation's variables of uncertainty
-List and describe your simulation's variables of uncertainty (where you're using pseudo-random number generation). For each such variable, how did you decide the range and probability distribution to use?  Do you think it's a good representation of reality?
+We will take all the following variable into condiseration, which are related to the profits of a single airline flight.
+Number of passangers who booked the flight
+The seats of a single flight
+The probability that the passangers who booked the flight will take on the plane
+The profits of each ticket
+The finance compensation to excess passengers who do not have a seat and the finance loss of losing future costumers
+The profit loss of unused seats
+
+tips:List and describe your simulation's variables of uncertainty (where you're using pseudo-random number generation). For each such variable, how did you decide the range and probability distribution to use?  Do you think it's a good representation of reality?
 
 ## Hypothesis or hypotheses before running the simulation:
+The hypothesis is that within a certain range, the profits will grow following the overbooking numbers' increasement. Then there is a peak to achieve the maximum profits, however the profits will begin to drop after the peak as the overselling keep increaing.
 
 ## Analytical Summary of your findings: (e.g. Did you adjust the scenario based on previous simulation outcomes?  What are the management decisions one could make from your simulation's output, etc.)
 
