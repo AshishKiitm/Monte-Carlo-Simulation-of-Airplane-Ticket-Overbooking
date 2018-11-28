@@ -13,8 +13,8 @@ So in this model. we will simulate the real-world airline booking scenario based
 
 ## Simulation's variables of uncertainty
 We will take all the following variable into condiseration, which are related to the profits of a single airline flight.
-### Number of passangers who booked the flight
-### The seats of a single flight
+Number of passangers who booked the flight
+/n The seats of a single flight
 ### The probability that the passangers who booked the flight will take on the plane
 ### The profits of each ticket
 ### The finance compensation to excess passengers who do not have a seat and the finance loss of losing future costumers
