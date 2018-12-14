@@ -35,4 +35,5 @@ The user will need to type the tpyes of airplanes and other variables according 
 
 ## All Sources Used:
 Oberstone, J. L. (2010). Spreadsheet Simulation of Airline Reservation Policy Using Multimedia Software. International Journal of Advanced Corporate Learning (iJAC), 3(1). doi:10.3991/ijac.v3i1.1169
+
 Basa, G., & Kedir, A. (2017). Modeling and optimization of the single-leg multi-fare class overbooking problem. Momona Ethiopian Journal of Science, 9(2), 200. doi:10.4314/mejs.v9i2.5
