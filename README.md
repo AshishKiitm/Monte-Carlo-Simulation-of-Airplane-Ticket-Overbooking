@@ -1,4 +1,4 @@
-# 590PR Final_Project
+# 590PR Final Project
 
 # Title: 
 Monte Carlo Simulation of Air Ticket Overselling
