@@ -21,11 +21,11 @@ class flight:
 
     spec_day = {'01-15', '05-28', '07-04', '09-03', '10-08', '11-11', '11-22', '12-25'}
 
-    bu_cost_dict = {'Boeing737': 150, 'Boeing757': 150, 'Boeing767': 150,
-                    'Boeing777': 150, 'Boeing787': 150, 'A350': 150}
+    bu_cost_dict = {'Boeing737': 160, 'Boeing757': 170, 'Boeing767': 150,
+                    'Boeing777': 130, 'Boeing787': 140, 'A350': 135 }
 
-    ec_cost_dict = {'Boeing737': 100, 'Boeing757': 100, 'Boeing767': 100,
-                    'Boeing777': 100, 'Boeing787': 100, 'A350': 100}
+    ec_cost_dict = {'Boeing737': 96, 'Boeing757': 102, 'Boeing767': 90,
+                    'Boeing777': 78, 'Boeing787': 84, 'A350': 81}
 
     def __init__(self, type, capacity, is_spec_day, bu_cost, ec_cost):
         self.type = type
