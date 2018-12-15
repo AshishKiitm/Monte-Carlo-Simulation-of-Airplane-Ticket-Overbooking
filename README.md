@@ -13,13 +13,16 @@ So in this model. we will simulate the real-world airline booking scenario based
 
 ## Simulation's variables of uncertainty
 We will take all the following variable into condiseration, which are related to the profits of a single airline flight.
-#### The demand of a scheduled flight
+#### The demand of each class of a scheduled flight
+The demand of a certain flight follows the binomial distribution in which the largest case numbers are 120% of the capacity, we randomly generate integers from this binomial distribution to represent the numbers of people who want to buy a ticket. Our decision is based on the reference.
 #### The number of final show-up passengers 
+The number of final show-up passengers also follows binominal distribution based on the reference, in which the largest case numbers are the number of  sold tickets. final show-up passenge number are randomly assigned from the binomial distribution we created.
 #### The distribution of no-show passengers on different flight class (including business and economy)
+In this model, we have considered two flight classes including the business and economy, and we will assign a total overbooking numbers of certain flight, ovverbooking tickets for two class are randomly generated from the total, and the combination of the two equals to the total overbooking numbers.
 #### The different finance compensation to excess passengers who do not have a seat 
+Based on the US policy, the compensation for bumped passengers varys according to the waiting time for changed flight schedule. There are three categories, for people who have waited within one hour, there is no compeansation. For those who have waited for one to two hours and two to three hours, the compensations are $400 and $800 respectively. SO we set the probability of no compensation to 60%, $400 to 30% and %800 to 10%.
 #### The probability of no-show passengers who canceled the tickets before departure
-
-tips:List and describe your simulation's variables of uncertainty (where you're using pseudo-random number generation). For each such variable, how did you decide the range and probability distribution to use?  Do you think it's a good representation of reality?
+For the cancellation, we randomly generate numbers from the number of no-show passengers, for those who cancelled before departure, there is a refund when computed the revenue of a flight.
 
 ## Hypothesis or hypotheses before running the simulation:
 We assume a certain airline(United Airlines) and a certain air route(Chicago to NewYork), so the types of airplanes and the cost of each seat can be confirmed. 
