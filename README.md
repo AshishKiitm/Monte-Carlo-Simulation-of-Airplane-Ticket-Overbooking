@@ -25,7 +25,7 @@ Based on the US policy, the compensation for bumped passengers varies according 
 For the cancellation, we randomly generate numbers from the number of no-show passengers, for those who cancelled before departure, there is a refund when computed the revenue of a flight.
 
 ## Hypothesis or hypotheses before running the simulation:
-We assume a certain airline (United Airlines) and a certain air route (Chicago to New York), so the types of airplanes and the cost of each seat can be confirmed. 
+We assume a fixed air route, so the types of airplanes and the cost of each seat can be confirmed. 
 The hypothesis is that within a certain range, the profits will grow following the overbooking numbers' increasement. Then there is a peak to achieve the maximum profits, however the profits will begin to drop after the peak as the overselling keep increasing due to the compensation for the excess passengers.
 
 ## Analytical Summary of your findings: (e.g. Did you adjust the scenario based on previous simulation outcomes?  What are the management decisions one could make from your simulation's output, etc.)?
