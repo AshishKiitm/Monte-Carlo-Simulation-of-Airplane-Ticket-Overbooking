@@ -1,5 +1,3 @@
-# Simulation Project
-
 # Title: 
 Monte Carlo Simulation of Air Ticket Overselling
 
