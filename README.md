@@ -1,11 +1,6 @@
 # Title: 
 Monte Carlo Simulation of Air Ticket Overselling
 
-## Team Member(s):
-Cong Xiang, Chin-Han Lin, Xuefeng Qin
-
-Xuefeng Qin created the main functions, inclusive of get_varaible, get_rev and Monte Carlo. The other parts are divided by Cong Xiang and Chin-Han Lin.
-
 # Monte Carlo Simulation Scenario & Purpose:
 Airline Companies usually oversell tickets to maximize the profits of each scheduled flight because there is a probability that some passengers who booked tickets will not take on the plane, overselling can raise the seat utilization. However, the exact number of overselling tickets is uncertain, which is very significant to be kept in a reasonable range. If overbooking numbers are not well controlled, it will lead to finance compensation and customer loss due to the absence of seats for excess passengers, or profit loss due to low seat utilization.
 
